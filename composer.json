@@ -1,0 +1,14 @@
+{
+    "name": "traiwi/traiwijs",
+    "type": "library",
+    "description": "TraiwiJS is a wrapper of commonly used JS functionalities",
+    "keywords": ["traiwi","js"],
+    "homepage": "http://www.traiwi.de",
+    "license": "MIT",
+    "authors": [
+        {"name": "Steffen Kowalski", "email": "sk@traiwi.de"}
+    ],
+    "require": {
+        "components/jquery": ">=1.9"
+    }
+}
