@@ -1,5 +1,5 @@
 "use strict";
 
-TraiwiJS = function() {
+var TraiwiJS = function() {
 	
 };
