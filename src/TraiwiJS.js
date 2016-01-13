@@ -16,3 +16,13 @@ TraiwiJS.prototype.pauseEvent = function(event) {
 	
 	return false;
 };
+
+TraiwiJS.prototype.getUrl = function() {
+	var url = location.protocol + '//' + location.host + location.pathname;
+	var is_method = url.substring(url.lastIndexOf('/') + 1);
+	if(is_method.substr(-3,3) == ".do") {
+		url = url.substr(0, url.length-is_method.length);
+	}
+	
+	return url;
+};
