@@ -12,7 +12,7 @@ How to use:
     <button type="button" id="traiwijs-areaprinter-button">Select area to print</button>
 	  
     <script type="text/javascript">
-      var areaPrinter = new TraiwiJS.AreaPrinter();
+      new TraiwiJS.AreaPrinter();
     </script>
   </body>
 </html>
