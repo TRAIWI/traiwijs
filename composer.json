@@ -2,7 +2,7 @@
     "name": "traiwi/traiwijs",
     "type": "library",
     "description": "TraiwiJS is a wrapper of commonly used JS functionalities",
-    "keywords": ["traiwi","js"],
+    "keywords": ["traiwi","js","javascript","screenshot","area","print"],
     "homepage": "http://www.traiwi.de",
     "license": "MIT",
     "authors": [
