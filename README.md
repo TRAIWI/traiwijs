@@ -9,7 +9,7 @@ How to use:
     <script type="text/javascript" src="TraiwiJS.min.js"></script>
   </head>
   <body>
-    <button type="button" id="traiwijs-areaprinter-button"></button>
+    <button type="button" id="traiwijs-areaprinter-button">Select area to print</button>
 	  
     <script type="text/javascript">
       var areaPrinter = new TraiwiJS.AreaPrinter();
