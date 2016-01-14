@@ -5,3 +5,7 @@
 /.settings/*
 .project
 .buildpath
+node_modules
+bower_components
+test
+tests

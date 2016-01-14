@@ -1,0 +1,34 @@
+{
+  "name": "traiwijs",
+  "homepage": "https://github.com/TRAIWI/traiwijs",
+  "authors": [
+    "scipper <scipper@myscipper.de>"
+  ],
+  "description": "TraiwiJS is a wrapper of commonly used JS functionalities",
+  "main": "TraiwiJS.min.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "javascript",
+    "js",
+    "areaprinter",
+    "print",
+    "traiwi",
+    "screenshot"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html2canvas": "~0.4.1",
+    "jquery": "~2.2.0"
+  }
+}
