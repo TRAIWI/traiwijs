@@ -28,7 +28,7 @@ TraiwiJS.Dialoger.prototype.add = function() {
 	
 	var dialog = $("#dialog-" + salt).dialog({
 		autoOpen: false,
-		height: 300,
+		height: "auto",
 		width: $(window).width() > 300 ? 300 : $(window).width()-20,
 		modal: true,
 		show: {
