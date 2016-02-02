@@ -29,3 +29,16 @@ TraiwiJS.Datepicker = function(id) {
 TraiwiJS.Datepicker.prototype.get = function() {
 	return this.datepicker;
 };
+
+TraiwiJS.Datepicker.prototype.parseDate = function(date, format) {
+	format = format || "yyyy-mm-dd";
+	var parts = date.match(/(\d+)/g); 
+	var i = 0;
+	var fmt = {};
+	
+	format.replace(/(yyyy|dd|mm)/g, function(part) { 
+		fmt[part] = i++; 
+	});
+
+	return new Date(parts[fmt["yyyy"]], parts[fmt["mm"]]-1, parts[fmt["dd"]]);
+};
