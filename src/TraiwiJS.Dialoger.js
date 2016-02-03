@@ -2,11 +2,14 @@
 
 var TraiwiJS = TraiwiJS || {};
 
-TraiwiJS.Dialoger = function() {
-	this.dialogs = [];
-	this.default_buttons = {
+TraiwiJS.Dialoger = function(buttonClass) {
+	var that = this;
+	
+	that.buttonClass = buttonClass || "btn icomoon-close float-left";
+	that.dialogs = [];
+	that.default_buttons = {
 		text: " ",
-		"class": "btn icomoon-close float-left",
+		"class": that.buttonClass,
 		click: function() {
 			$(this).dialog("close");
 		},
