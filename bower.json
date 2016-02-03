@@ -29,6 +29,7 @@
   ],
   "dependencies": {
     "html2canvas": "~0.4.1",
-    "jquery": "~2.2.0"
+    "jquery": "~2.2.0",
+    "jquery-ui": "~1.11.4"
   }
 }
