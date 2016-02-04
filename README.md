@@ -6,6 +6,7 @@ How to use:
 <!DOCTYPE html>
 <html>
   <head>
+    <script type="text/javascript" src="bower_components/html2canvas/build/html2canvas.min.js"></script>
     <script type="text/javascript" src="src/TraiwiJS.min.js"></script>
   </head>
   <body>
