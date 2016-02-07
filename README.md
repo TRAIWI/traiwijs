@@ -7,7 +7,7 @@ How to use:
 <html>
   <head>
     <script type="text/javascript" src="bower_components/html2canvas/build/html2canvas.min.js"></script>
-    <script type="text/javascript" src="src/TraiwiJS.min.js"></script>
+    <script type="text/javascript" src="bower_components/traiwijs/src/TraiwiJS.min.js"></script>
   </head>
   <body>
     <button type="button" id="traiwijs-areaprinter-button">Select area to print</button>
@@ -31,7 +31,7 @@ How to use:
   <head>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="src/TraiwiJS.min.js"></script>
+    <script type="text/javascript" src="bower_components/traiwijs/src/TraiwiJS.min.js"></script>
   </head>
   <body>
     <input type="text" id="traiwi-js-datepicker-a" />
@@ -54,7 +54,7 @@ How to use:
   <head>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="src/TraiwiJS.min.js"></script>
+    <script type="text/javascript" src="bower_components/traiwijs/src/TraiwiJS.min.js"></script>
   </head>
   <body>
     <button id="show-d1">Show dialog</button>
