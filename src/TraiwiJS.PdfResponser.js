@@ -3,7 +3,9 @@
 var TraiwiJS = TraiwiJS || {};
 
 TraiwiJS.PdfResponser = function(trigger, method, options) {
-	$("#" + trigger).click(function() {
+	$("#" + trigger).click(function(event) {
+		TraiwiJS.prototype.pauseEvent(event);
+		
 		if($("#ajax-loading").length == 1) {
 			$("#ajax-loading").dialog("open");
 		}
